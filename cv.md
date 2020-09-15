@@ -8,4 +8,7 @@ Base HTML/CSS/JS
 ## Code example
 ## Experience
 ## Education
+Irkutsk Aviation College - Information systems and programming
 ## Language
+Russian (Native)\
+English (Pre-intermediate, CEFR A2+)
