@@ -4,6 +4,7 @@ __email:__ <akkovl@ya.ru>\
 __discord:__ Neiroromo#2020
 ## About
 ## Skills
+Base HTML/CSS/JS
 ## Code example
 ## Experience
 ## Education
