@@ -63,7 +63,7 @@ main{
     justify-content: space-around;
 }
 
-main div{
+.main-info{
     width: 170px;
     padding: 5px;
 }
