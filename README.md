@@ -1,1 +1,1 @@
-[# rsschool-cv](https://neiroromo.github.io/rsschool-cv/)
+[# rsschool-cv](https://neiroromo.github.io/rsschool-cv/cv)
