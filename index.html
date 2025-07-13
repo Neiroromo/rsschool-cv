@@ -1,10 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>CV</title>
-</head>
-<body>
-    <h1>HTML, CSS and Git Basics</h1>
-</body>
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Резюме</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">О себе</a></li>
+          <li><a href="#links">Контакты</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#code-example">Пример кода</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#education">Образование и уровень английского</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>О себе</h2>
+        <img
+          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcReTBlVdSJq8YJiNdI4m0Y7t8MV-9Flbk1xkFcaCawsJotsBi6s"
+          alt="my avatar"
+        />
+        <p>Стараюсь не выгорать на работе и хорошо восстанавливаться в выходные.</p>
+      </section>
+      <section id="links">
+        <h2>Контакты</h2>
+        <ul>
+          <li>
+            <a href="">Discord</a>
+          </li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Навыки</h2>
+        <ul>
+          <li>Гейминг</li>
+          <li>Кодинг</li>
+          <li>Работинг</li>
+        </ul>
+      </section>
+      <section id="code-example">
+        <h2>Пример кода</h2>
+        <pre>
+            <code>
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 1024px;
+    border: 1px black solid;
+}
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+            </code>
+        </pre>
+      </section>
+      <section id="projects">
+        <h2>Проекты</h2>
+        <ul>
+          <li>
+            <a href="https://neiroromo.github.io/rsschool-cv/">RS School CV</a>
+          </li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Образование и уровень английского</h2>
+        <ul>
+            <li>Образование: Средне-специальное по направлению оператор ЭВМ</li>
+            <li>Уровень английского: A2</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <a href="https://github.com/Neiroromo">GitHub</a>
+      <p>2025</p>
+      <a href="https://rs.school/courses/javascript-ru">
+        <img
+          src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/6183d68813ceae70d608c4aeab2f4d8117c310cf/tasks/cv/rs-school-logo.svg"
+          alt="link to course"
+          id="rs_logo"
+        />
+      </a>
+    </footer>
+  </body>
 </html>
